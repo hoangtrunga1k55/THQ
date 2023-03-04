@@ -12,12 +12,16 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "@/assets/app.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
